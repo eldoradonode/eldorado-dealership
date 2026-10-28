@@ -1,0 +1,15 @@
+{
+  "name": "eldorado-dealership",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "sharp": "^0.34.0"
+  }
+}
